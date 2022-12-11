@@ -1,0 +1,17 @@
+/*
+ body {
+    background-color: tomato;
+  } 
+*/
+  body {
+    background-image: linear-gradient(red,yellow);
+  }
+  
+  
+p {
+    font-size: 30;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb (60, 60, 60);
+    margin-left: 20px;
+  }

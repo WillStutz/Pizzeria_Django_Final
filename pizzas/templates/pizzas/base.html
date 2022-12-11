@@ -1,0 +1,15 @@
+<p>
+    <a href="{% url 'pizzas:index' %}">Pizza Home Page</a>
+    <a href="{% url 'pizzas:pizzas' %}">Pizzas</a>
+    <a href="{% url 'pizzas:comments' %}">Comments</a>
+
+
+
+
+
+
+</p>
+
+{% block content %}
+<link rel="stylesheet" href="pizza.css">
+{% endblock content %}
